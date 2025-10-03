@@ -20,3 +20,7 @@ python run_MLLM.py \
     --multi_step_type verb_2s_vanilla_re \ # multistep prompts
     --image_noise True --image_noise_start 0 --image_noise_step 5 \ # noised image method parameters
 ```
+- Note
+    - Specify ```--type``` to change the prompt.
+    - Specity ```--using_consistency``` to enable or disable the use of consistency sampling.
+    - Change ```--multi_step_type``` to decide the second round of dialogue prompting.
